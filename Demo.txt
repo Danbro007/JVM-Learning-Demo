@@ -1,0 +1,23 @@
+Compiled from "Demo.java"
+public class com.danbro.chapter15.Demo {
+  public com.danbro.chapter15.Demo();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: iconst_1
+       6: putfield      #2                  // Field num:I
+       9: return
+
+  public int add();
+    Code:
+       0: aload_0
+       1: aload_0
+       2: getfield      #2                  // Field num:I
+       5: iconst_2
+       6: iadd
+       7: putfield      #2                  // Field num:I
+      10: aload_0
+      11: getfield      #2                  // Field num:I
+      14: ireturn
+}
